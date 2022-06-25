@@ -16,7 +16,7 @@ import android.widget.TextView;
      private static final int SPLASH = 3300 ;
 
      ImageView img1;
-     TextView txt1,txt2;
+     TextView txt1,txt2,txt3,txt4,txt5;
      Animation top,bottom;
 
     @Override
@@ -30,6 +30,9 @@ import android.widget.TextView;
         img1=(ImageView)findViewById(R.id.logo);
         txt1=(TextView)findViewById(R.id.sublogo1);
         txt2=(TextView)findViewById(R.id.sublogo2);
+        txt3=(TextView)findViewById(R.id.sublogo3);
+        txt4=(TextView)findViewById(R.id.sublogo4);
+        txt5=(TextView)findViewById(R.id.sublogo5);
 
         top= AnimationUtils.loadAnimation(getApplicationContext(),R.anim.mainlogoanimation);
         bottom=AnimationUtils.loadAnimation(getApplicationContext(),R.anim.sublogo1animation);
@@ -37,6 +40,9 @@ import android.widget.TextView;
         img1.setAnimation(top);
         txt1.setAnimation(bottom);
         txt2.setAnimation(bottom);
+        txt3.setAnimation(bottom);
+        txt4.setAnimation(bottom);
+        txt5.setAnimation(bottom);
 
         new Handler().postDelayed(new Runnable() {
             @Override
