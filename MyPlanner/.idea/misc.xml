@@ -3,17 +3,21 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/3.1/Software lab-final/My_Planner/app/src/main/res/layout/activity_main.xml" value="0.2" />
-        <entry key="..\:/3.1/Software lab-final/ToDo-App/My_Planner/app/src/main/res/drawable/ic_launcher_background.xml" value="0.202" />
-        <entry key="..\:/3.1/Software lab-final/ToDo-App/My_Planner/app/src/main/res/layout/activity_main.xml" value="0.2" />
-        <entry key="..\:/3.1/Software lab-final/ToDo-App/My_Planner/app/src/main/res/layout/activity_view_task.xml" value="0.20521590423257802" />
+        <entry key="..\:/SOFTWARE LAB/todo-list-master/todo-list-master/app/src/main/res/layout/activity_alarm.xml" value="0.16302083333333334" />
+        <entry key="..\:/SOFTWARE LAB/todo-list-master/todo-list-master/app/src/main/res/layout/activity_main.xml" value="0.176" />
+        <entry key="..\:/SOFTWARE LAB/todo-list-master/todo-list-master/app/src/main/res/layout/activity_main_test.xml" value="0.25" />
+        <entry key="..\:/SOFTWARE LAB/todo-list-master/todo-list-master/app/src/main/res/layout/activity_splash.xml" value="0.25" />
+        <entry key="..\:/SOFTWARE LAB/todo-list-master/todo-list-master/app/src/main/res/layout/activity_splash2.xml" value="0.15942028985507245" />
+        <entry key="..\:/SOFTWARE LAB/todo-list-master/todo-list-master/app/src/main/res/layout/dialog_completed_theme.xml" value="0.26145833333333335" />
+        <entry key="..\:/SOFTWARE LAB/todo-list-master/todo-list-master/app/src/main/res/layout/fragment_calendar_view.xml" value="0.26145833333333335" />
+        <entry key="..\:/SOFTWARE LAB/todo-list-master/todo-list-master/app/src/main/res/layout/fragment_create_task.xml" value="0.1" />
+        <entry key="..\:/SOFTWARE LAB/todo-list-master/todo-list-master/app/src/main/res/layout/item_task.xml" value="0.176" />
+        <entry key="..\:/SOFTWARE LAB/todo-list-master/todo-list-master/app/src/main/res/menu/menu.xml" value="0.25" />
+        <entry key="..\:/Users/ASUS/Desktop/git lab/zafrul/todo-list-zafrul/app/src/main/res/layout/activity_main_test.xml" value="0.25" />
+        <entry key="..\:/Users/ASUS/Desktop/git lab/zafrul/todo-list-zafrul/app/src/main/res/layout/dialog_completed_theme.xml" value="0.25" />
+        <entry key="..\:/Users/ASUS/Desktop/git lab/zafrul/todo-list-zafrul/app/src/main/res/layout/fragment_create_task.xml" value="0.25" />
       </map>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
-    <output url="file://$PROJECT_DIR$/build/classes" />
-  </component>
-  <component name="ProjectType">
-    <option name="id" value="Android" />
-  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK" />
 </project>
