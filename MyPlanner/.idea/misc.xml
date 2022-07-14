@@ -13,9 +13,13 @@
         <entry key="..\:/SOFTWARE LAB/todo-list-master/todo-list-master/app/src/main/res/layout/fragment_create_task.xml" value="0.1" />
         <entry key="..\:/SOFTWARE LAB/todo-list-master/todo-list-master/app/src/main/res/layout/item_task.xml" value="0.176" />
         <entry key="..\:/SOFTWARE LAB/todo-list-master/todo-list-master/app/src/main/res/menu/menu.xml" value="0.25" />
-        <entry key="..\:/Users/ASUS/Desktop/git lab/tuna/todo-list-tuna/app/src/main/res/layout/dialog_completed_theme.xml" value="0.25" />
+
+        <entry key="..\:/Users/ASUS/Desktop/git lab/zafrul/todo-list-zafrul/app/src/main/res/layout/activity_main_test.xml" value="0.25" />
+        <entry key="..\:/Users/ASUS/Desktop/git lab/zafrul/todo-list-zafrul/app/src/main/res/layout/dialog_completed_theme.xml" value="0.25" />
+        <entry key="..\:/Users/ASUS/Desktop/git lab/zafrul/todo-list-zafrul/app/src/main/res/layout/fragment_create_task.xml" value="0.25" />
       </map>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK" />
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK" />
+
 </project>
