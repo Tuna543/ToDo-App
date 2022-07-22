@@ -26,26 +26,25 @@ public class MainActivityTest {
 
 
     @Test
-    public void testingadding()
+    public void testingadding()  // testing for adding a new task
     {
-        onView(withId(R.id.addTask)).perform(click());
-        onView(withId(R.id.taskadding)).check(androidx.test.espresso.assertion.ViewAssertions.matches(isDisplayed()));
+        onView(withId(R.id.addTask)).perform(click()); // click on the add task button in homepage
+        onView(withId(R.id.taskadding)).check(androidx.test.espresso.assertion.ViewAssertions.matches(isDisplayed())); // check bottomsheet fragment is displayed or not
 
-        ViewActions.swipeUp();
+        onView(withId(R.id.addTaskTitle)).perform(androidx.test.espresso.action.ViewActions.typeText("Web project")); // add title field
+        pressBack(); //click back button
 
+        onView(withId(R.id.addTaskDescription)).perform(androidx.test.espresso.action.ViewActions.typeText("Web project submission")); // add description field
+        pressBack();  //click back button
 
-        onView(withId(R.id.addTaskTitle)).perform(androidx.test.espresso.action.ViewActions.typeText("Web project"));
-        pressBack();
-        onView(withId(R.id.addTaskDescription)).perform(androidx.test.espresso.action.ViewActions.typeText("Web project submission"));
-        pressBack();
-        onView(withId(R.id.taskDate)).perform(androidx.test.espresso.action.ViewActions.typeText("20 July 2022"));
+        onView(withId(R.id.taskDate)).perform(androidx.test.espresso.action.ViewActions.typeText("27-07-2022")); // add date field
+        pressBack();  //click back button
 
-        pressBack();
-        onView(withId(R.id.taskTime)).perform(androidx.test.espresso.action.ViewActions.typeText("18:30"));
-        pressBack();
+        onView(withId(R.id.taskTime)).perform(androidx.test.espresso.action.ViewActions.typeText("18:30")); // add time field
+        pressBack();  //click back button
 
-        onView(withId(R.id.addTask)).perform(click());
-        onView(withId(R.id.listview)).check(androidx.test.espresso.assertion.ViewAssertions.matches(isDisplayed()));
+        onView(withId(R.id.addTask)).perform(click()); // click add task button in fragment
+        onView(withId(R.id.taskRecycler)).check(androidx.test.espresso.assertion.ViewAssertions.matches(isDisplayed())); // check for added task in recycler view
     }
 
 
