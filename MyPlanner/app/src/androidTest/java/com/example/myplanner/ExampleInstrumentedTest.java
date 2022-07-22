@@ -22,7 +22,7 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
 
-        assertEquals("com.codegama.todolistapplication", appContext.getPackageName());
+        assertEquals("com.example.myplanner", appContext.getPackageName());
     }
 
 
