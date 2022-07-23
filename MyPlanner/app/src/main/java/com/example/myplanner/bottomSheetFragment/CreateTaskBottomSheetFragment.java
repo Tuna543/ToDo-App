@@ -163,7 +163,7 @@ public class CreateTaskBottomSheetFragment extends BottomSheetDialogFragment {
                 createTask.setTaskTitle(addTaskTitle.getText().toString());
                 createTask.setTaskDescrption(addTaskDescription.getText().toString());
                 createTask.setDate(taskDate.getText().toString());
-                createTask.setLastAlarm(taskTime.getText().toString());
+                createTask.setTime(taskTime.getText().toString());
 
                 if (!isEdit)
                     DatabaseClient.getInstance(getActivity()).getAppDatabase()
@@ -222,7 +222,7 @@ public class CreateTaskBottomSheetFragment extends BottomSheetDialogFragment {
         addTaskTitle.setText(task.getTaskTitle());
         addTaskDescription.setText(task.getTaskDescrption());
         taskDate.setText(task.getDate());
-        taskTime.setText(task.getLastAlarm());
+        taskTime.setText(task.getTime());
     }
 
     public interface setRefreshListener {
