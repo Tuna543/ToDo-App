@@ -90,8 +90,11 @@ public class CreateTaskBottomSheetFragment extends BottomSheetDialogFragment {
             showTaskFromId();
         }
 
-        taskDate.setOnTouchListener((view, motionEvent) -> {
-            if(motionEvent.getAction() == MotionEvent.ACTION_UP) {
+
+        taskDate.setOnLongClickListener(new View.OnLongClickListener() {
+            @Override
+            public boolean onLongClick(View view) {
+
                 final Calendar c = Calendar.getInstance();
                 mYear = c.get(Calendar.YEAR);
                 mMonth = c.get(Calendar.MONTH);
@@ -103,12 +106,13 @@ public class CreateTaskBottomSheetFragment extends BottomSheetDialogFragment {
                         }, mYear, mMonth, mDay);
                 datePickerDialog.getDatePicker().setMinDate(System.currentTimeMillis() - 1000);
                 datePickerDialog.show();
+                return true;
             }
-            return true;
         });
 
-        taskTime.setOnTouchListener((view, motionEvent) -> {
-            if(motionEvent.getAction() == MotionEvent.ACTION_UP) {
+        taskTime.setOnLongClickListener(new View.OnLongClickListener() {
+            @Override
+            public boolean onLongClick(View view) {
                 // Get Current Time
                 final Calendar c = Calendar.getInstance();
                 mHour = c.get(Calendar.HOUR_OF_DAY);
@@ -121,8 +125,9 @@ public class CreateTaskBottomSheetFragment extends BottomSheetDialogFragment {
                             timePickerDialog.dismiss();
                         }, mHour, mMinute, false);
                 timePickerDialog.show();
+                return true;
+
             }
-            return true;
         });
     }
 

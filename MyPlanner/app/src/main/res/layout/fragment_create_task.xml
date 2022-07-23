@@ -11,7 +11,7 @@
     android:paddingLeft="20dp"
     android:paddingRight="20dp"
     android:paddingTop="30dp"
-    android:paddingBottom="50dp"
+    android:paddingBottom="2dp"
     android:background="#9CC3D5FF"
     android:orientation="vertical">
 
@@ -21,7 +21,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
-            android:layout_marginTop="10dp"
+            android:layout_marginTop="0dp"
             android:text="Fill the details below to add your TODO"
             android:textAlignment="center"
             android:textColor="@android:color/black"
@@ -34,7 +34,7 @@
             fontPath="fonts/nunito_light.ttf"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="30dp"
+            android:layout_marginTop="5dp"
             android:text="Task title"
             android:textSize="18sp"
             android:textColor="@color/black"
@@ -57,7 +57,7 @@
         fontPath="fonts/nunito_light.ttf"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="30dp"
+        android:layout_marginTop="5dp"
         android:textSize="18sp"
         android:textColor="@color/black"
         android:text="Task description"
@@ -80,7 +80,7 @@
         fontPath="fonts/nunito_light.ttf"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="30dp"
+        android:layout_marginTop="5dp"
         android:text="Task date"
         android:textSize="18sp"
         android:textColor="@color/black"
@@ -103,7 +103,7 @@
         fontPath="fonts/nunito_light.ttf"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="30dp"
+        android:layout_marginTop="5dp"
         android:text="Task time"
         android:textSize="18sp"
         android:textColor="@color/black"
@@ -129,7 +129,7 @@
         android:text="Add task"
         android:background="@drawable/btn_background"
         android:textColor="@color/colorPrimary"
-        android:layout_marginTop="40dp" />
+        android:layout_marginTop="5dp" />
 
 </LinearLayout>
 </ScrollView>
