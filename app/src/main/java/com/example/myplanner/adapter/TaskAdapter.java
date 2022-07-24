@@ -61,8 +61,8 @@ public class TaskAdapter extends RecyclerView.Adapter<TaskAdapter.TaskViewHolder
         Task task = taskList.get(position);
         holder.title.setText(task.getTaskTitle());
         holder.description.setText(task.getTaskDescrption());
-        holder.time.setText(task.getLastAlarm());
-        holder.status.setText(task.isComplete() ? "COMPLETED" : "UPCOMING");
+//        holder.time.setText(task.getLastAlarm());
+//        holder.status.setText(task.isComplete() ? "COMPLETED" : "UPCOMING");
         holder.options.setOnClickListener(view -> showPopUpMenu(view, position));
 
         try {
