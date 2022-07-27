@@ -107,7 +107,7 @@ public class MainActivityTest {
     }
 
     /**
-     * UI Test for delete a task
+     * UI Test for deleting a task
      */
 
     @Test
