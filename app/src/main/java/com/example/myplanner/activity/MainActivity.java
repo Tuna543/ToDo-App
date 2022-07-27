@@ -24,6 +24,14 @@ import java.util.List;
 import butterknife.BindView;
 import butterknife.ButterKnife;
 
+/**
+ * This is MainActivity class of MyPlanner application
+ * CreateTaskBottomSheetFragment will be on this
+ * MainActivity class
+ *
+ */
+
+
 public class MainActivity extends BaseActivity implements CreateTaskBottomSheetFragment.setRefreshListener {
 
     @BindView(R.id.taskRecycler)
@@ -35,6 +43,11 @@ public class MainActivity extends BaseActivity implements CreateTaskBottomSheetF
     @BindView(R.id.noDataImage)
     ImageView noDataImage;
 
+    
+    /**
+     *
+     * @param savedInstanceState
+     */
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -76,6 +89,13 @@ public class MainActivity extends BaseActivity implements CreateTaskBottomSheetF
                 return tasks;
             }
 
+            
+             /**Execute in post method
+             *
+             * @param tasks
+             */
+            
+            
             @Override
             protected void onPostExecute(List<Task> tasks) {
                 super.onPostExecute(tasks);
