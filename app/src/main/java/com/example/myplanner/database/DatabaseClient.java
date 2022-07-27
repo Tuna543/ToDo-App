@@ -38,6 +38,11 @@ public class DatabaseClient {
         }
         return mInstance;
     }
+    
+     /**
+     * This will return appDatabase
+     * @return appDatabase
+     */
 
     public AppDatabase getAppDatabase() {
         return appDatabase;
