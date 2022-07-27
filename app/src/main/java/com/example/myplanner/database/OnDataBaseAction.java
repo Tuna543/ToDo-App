@@ -16,6 +16,11 @@ public interface OnDataBaseAction {
 
     @Query("DELETE FROM Task")
     void truncateTheList();
+    
+     /**This will insert the data
+     *
+     * @param task
+     */
 
     @Insert
     void insertDataIntoTaskList(Task task);
