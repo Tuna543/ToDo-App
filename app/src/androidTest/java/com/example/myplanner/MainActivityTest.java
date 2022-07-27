@@ -51,7 +51,7 @@ public class MainActivityTest {
 
 
     /**
-     * UI Test for add a new task
+     * UI Test for add a new
      */
 
     @Test
