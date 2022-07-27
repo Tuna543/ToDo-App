@@ -10,6 +10,12 @@ public class DatabaseClient {
 
     //our app database object
     private AppDatabase appDatabase;
+    
+    
+     /**This will call the room database
+     *
+     * @param mCtx
+     */
 
     private DatabaseClient(Context mCtx) {
         this.mCtx = mCtx;
