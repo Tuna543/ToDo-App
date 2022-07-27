@@ -1,6 +1,11 @@
 # My Planner App (ToDo App)
 
-This is a task management app, which helps a user to stay organized and manage day to day tasks. Let’s suppose the app’s name is: “My Planer”. This app should allow users to: 
+
+-make schedule
+-manage time
+-stay focused
+
+This is a task management app, which will help users to stay organized and manage day to day tasks. Let’s suppose the app’s name is: “My Planer”. This app should allow users to: 
 
 1. Show a list of saved works. 
 2. Users can add new work. 
