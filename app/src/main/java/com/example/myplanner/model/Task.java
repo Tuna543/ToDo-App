@@ -8,6 +8,11 @@ import java.io.Serializable;
 
 @Entity
 public class Task implements Serializable {
+    
+    /**
+     * Created the table and getter setter
+     */
+
 
     @PrimaryKey(autoGenerate = true)
     int taskId;
