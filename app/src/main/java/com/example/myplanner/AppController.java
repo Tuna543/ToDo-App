@@ -40,7 +40,11 @@ public class AppController extends Application implements ComponentCallbacks2 {
                         .build()
         );
     }
-
+    
+    /**atttached base
+     *
+     * @param base
+     */
     @Override
     protected void attachBaseContext(Context base) {
         super.attachBaseContext(base);
