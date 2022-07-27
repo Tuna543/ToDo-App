@@ -3,11 +3,11 @@
 
 
 
--make schedule 
+-Make schedule 
 
--manage time
+-Manage time
 
--stay focused
+-Stay focused
 
 This is a task management app, which will help users to stay organized and manage day to day tasks. Let’s suppose the app’s name is: “My Planer”. This app should allow users to: 
 
