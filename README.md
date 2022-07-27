@@ -1,8 +1,10 @@
 # My Planner App (ToDo App)
 
 
--make schedule
+-make schedule 
+
 -manage time
+
 -stay focused
 
 This is a task management app, which will help users to stay organized and manage day to day tasks. Let’s suppose the app’s name is: “My Planer”. This app should allow users to: 
