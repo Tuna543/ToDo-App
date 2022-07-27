@@ -40,7 +40,7 @@ public class MainActivityTest {
 
 
     /**
-     * UI Test for showing bottom sheet fragment
+     * UI Test for showing bottom sheet 
      */
 
     @Test
