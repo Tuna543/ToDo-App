@@ -18,6 +18,16 @@ import org.junit.Test;
 import org.junit.runner.RunWith;
 
 
+
+
+     /**
+     * on this class we will do some UI test foe our app
+     */
+
+
+
+
+
 @RunWith(AndroidJUnit4.class)
 @LargeTest
 public class MainActivityTest {
