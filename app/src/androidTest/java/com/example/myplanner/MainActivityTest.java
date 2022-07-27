@@ -119,7 +119,7 @@ public class MainActivityTest {
 
 
     /**
-     * UI Test for completin a task
+     * UI Test for completing a task
      */
 
     @Test
