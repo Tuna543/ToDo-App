@@ -23,6 +23,14 @@ public class DatabaseClient {
                 .fallbackToDestructiveMigration()
                 .build();
     }
+    
+    
+     /**This will synchronized with DatabaseClient and return instance
+     *
+     * @param mCtx
+     * @return mInstance
+     */
+
 
     public static synchronized DatabaseClient getInstance(Context mCtx) {
         if (mInstance == null) {
