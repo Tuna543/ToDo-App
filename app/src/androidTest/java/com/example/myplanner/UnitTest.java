@@ -78,18 +78,18 @@ import java.io.IOException;
         @Test
         public void testUpdate() throws Exception{
             Task createTask = new Task();
-            createTask.setTaskId(2);
-            createTask.setTaskTitle("Meeting");
-            createTask.setTaskDescrption("Meeting with Management Team");
-            createTask.setDate("25-07-2022");
-            createTask.setTime("18:25");
+            createTask.setTaskId(2);  // setting task id
+            createTask.setTaskTitle("Meeting");  //insert task Title
+            createTask.setTaskDescrption("Meeting with Management Team");  //insert task Description
+            createTask.setDate("25-07-2022");  //insert task date
+            createTask.setTime("18:25");   //insert task time 
 
             dao.insertDataIntoTaskList(createTask);
-            Task record1 = dao.selectDataFromAnId(2);
+            Task record1 = dao.selectDataFromAnId(2);   // save task in database
 
-            assertEquals("Meeting", record1.getTaskTitle());
+            assertEquals("Meeting", record1.getTaskTitle());  
 
-            dao.updateAnExistingRow(2,"Meeting","Meeting with Management Team","27-07-2022","18:25");
+            dao.updateAnExistingRow(2,"Meeting","Meeting with Management Team","27-07-2022","18:25"); 
             record1 = dao.selectDataFromAnId(2);
             assertEquals("27-07-2022", record1.getDate());
         }
