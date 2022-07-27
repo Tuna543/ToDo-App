@@ -33,6 +33,12 @@ public interface OnDataBaseAction {
 
     @Query("DELETE FROM Task WHERE taskId = :taskId")
     void deleteTaskFromId(int taskId);
+    
+     /**This will return the task details
+     *
+     * @param taskId
+     * @return task
+     */
 
     @Query("SELECT * FROM Task WHERE taskId = :taskId")
     Task selectDataFromAnId(int taskId);
