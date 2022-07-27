@@ -178,6 +178,11 @@ public class TaskAdapter extends RecyclerView.Adapter<TaskAdapter.TaskViewHolder
         ImageView options;
         @BindView(R.id.time)
         TextView time;
+        
+         /**This is Task view holder
+         *
+         * @param view
+         */
 
         TaskViewHolder(@NonNull View view) {
             super(view);
