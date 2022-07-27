@@ -57,16 +57,16 @@ import java.io.IOException;
         @Test
         public void testAdd() throws Exception{
             Task createTask = new Task();
-            createTask.setTaskId(1);
-            createTask.setTaskTitle("Meeting");
-            createTask.setTaskDescrption("Meeting with Management Team");
-            createTask.setDate("25-7-2022");
-            createTask.setTime("18:25");
+            createTask.setTaskId(1);        // setting task id
+            createTask.setTaskTitle("Meeting");  //insert task Title
+            createTask.setTaskDescrption("Meeting with Management Team"); //insert task Description
+            createTask.setDate("25-7-2022");           //insert task date
+            createTask.setTime("18:25");         //insert task time 
 
             dao.insertDataIntoTaskList(createTask);
-            Task record1 = dao.selectDataFromAnId(1);
+            Task record1 = dao.selectDataFromAnId(1); // save task in database
 
-            assertEquals("Meeting", record1.getTaskTitle());
+            assertEquals("Meeting", record1.getTaskTitle()); //getting back the record from database
 
         }
 
