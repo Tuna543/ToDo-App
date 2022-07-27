@@ -76,7 +76,7 @@ public class MainActivityTest {
         onView(withId(R.id.taskRecycler)).check(matches(isDisplayed())); // check for added task in recycler view
     }
  /**
-     * UI Test for update a Task
+     * UI Test for updating  a Task
      */
 
 
