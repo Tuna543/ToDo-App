@@ -13,6 +13,14 @@ import android.view.animation.AnimationUtils;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+
+/**
+ * This is SplashActivity class of MyPlanner application
+ * Some Animation will be on this
+ * SplashActivity class
+ *
+ */
+
 public class SplashActivity extends AppCompatActivity {
 
     private static final int SPLASH = 3300 ;
@@ -35,6 +43,11 @@ public class SplashActivity extends AppCompatActivity {
         txt3=(TextView)findViewById(R.id.sublogo3);
         txt4=(TextView)findViewById(R.id.sublogo4);
         txt5=(TextView)findViewById(R.id.sublogo5);
+        
+/**
+ * For Animation
+ * 
+ */
 
         top= AnimationUtils.loadAnimation(getApplicationContext(),R.anim.mainlogoanimation);
         bottom=AnimationUtils.loadAnimation(getApplicationContext(),R.anim.sublogo1animation);
