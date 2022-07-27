@@ -42,6 +42,15 @@ public interface OnDataBaseAction {
 
     @Query("SELECT * FROM Task WHERE taskId = :taskId")
     Task selectDataFromAnId(int taskId);
+    
+      /**This will update the task
+     *
+     * @param taskId
+     * @param taskTitle
+     * @param taskDescription
+     * @param taskDate
+     * @param taskTime
+     */
 
     @Query("UPDATE Task SET taskTitle = :taskTitle, taskDescription = :taskDescription, date = :taskDate, time = :taskTime WHERE taskId = :taskId")
     void updateAnExistingRow(int taskId, String taskTitle, String taskDescription, String taskDate, String taskTime);
