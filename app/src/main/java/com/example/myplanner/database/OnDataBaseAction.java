@@ -24,6 +24,12 @@ public interface OnDataBaseAction {
 
     @Insert
     void insertDataIntoTaskList(Task task);
+    
+    
+     /**This will delete the task
+     *
+     * @param taskId
+     */
 
     @Query("DELETE FROM Task WHERE taskId = :taskId")
     void deleteTaskFromId(int taskId);
