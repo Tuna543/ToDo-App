@@ -13,6 +13,11 @@ import io.github.inflationx.viewpump.ViewPump;
 public class AppController extends Application implements ComponentCallbacks2 {
 
     private static AppController mInstance;
+    
+        /**This will return an instance
+     *
+     * @return instance
+     */
 
     public static synchronized AppController getInstance() {
         return mInstance;
