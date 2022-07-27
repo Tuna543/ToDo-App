@@ -21,7 +21,7 @@ import org.junit.runner.RunWith;
 
 
      /**
-     * on this class we will do some UI test for our app
+     * on this class we will do some UI test for our application
      */
 
 
